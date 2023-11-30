@@ -1,6 +1,7 @@
-package observer;
+package org.example.observer.swing;
 
 import java.util.*;
+import java.util.Observer;
 
 public class WeatherData implements Subject {
 	private ArrayList observers;
@@ -12,11 +13,11 @@ public class WeatherData implements Subject {
 		observers = new ArrayList();
 	}
 	
-	public void registerObserver(Observer o) {
+	public void registerObserver(java.util.Observer o) {
 		observers.add(o);
 	}
 	
-	public void removeObserver(Observer o) {
+	public void removeObserver(java.util.Observer o) {
 		int i = observers.indexOf(o);
 		if (i >= 0) {
 			observers.remove(i);
@@ -25,7 +26,7 @@ public class WeatherData implements Subject {
 	
 	public void notifyObservers() {
 		for (int i = 0; i < observers.size(); i++) {
-			Observer observer = (Observer)observers.get(i);
+			java.util.Observer observer = (Observer)observers.get(i);
 			observer.update(temperature, humidity, pressure);
 		}
 	}

@@ -1,4 +1,4 @@
-package observer;
+package org.example.observer.swing;
 
 public class HeatIndexDisplay implements Observer, DisplayElement {
 	float heatIndex = 0.0f;

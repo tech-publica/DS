@@ -1,4 +1,4 @@
-package decorator;
+package org.example.decorator;
 
 public class Decaf extends Beverage {
 	public Decaf() {

@@ -1,4 +1,4 @@
-package observer;
+package org.example.observer.swing;
 	
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	private float temperature;

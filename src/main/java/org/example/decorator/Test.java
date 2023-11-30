@@ -1,4 +1,4 @@
-package decorator;
+package org.example.decorator;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

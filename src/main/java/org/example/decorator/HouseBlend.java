@@ -1,4 +1,4 @@
-package decorator;
+package org.example.decorator;
 
 public class HouseBlend extends Beverage {
 	public HouseBlend() {

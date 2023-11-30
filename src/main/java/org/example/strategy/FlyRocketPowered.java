@@ -1,4 +1,4 @@
-package strategy;
+package org.example.strategy;
 
 public class FlyRocketPowered implements FlyBehavior {
 	public void fly() {

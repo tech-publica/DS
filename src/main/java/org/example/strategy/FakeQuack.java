@@ -1,4 +1,4 @@
-package strategy;
+package org.example.strategy;
 
 public class FakeQuack implements QuackBehavior {
 	public void quack() {

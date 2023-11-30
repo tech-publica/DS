@@ -1,4 +1,4 @@
-package observer.jdk;
+package org.example.observer.jdk;
 
 import java.util.Observable;
 import java.util.Observer;

@@ -1,4 +1,4 @@
-package observer;
+package org.example.observer.swing;
 
 public interface Subject {
 	public void registerObserver(Observer o);

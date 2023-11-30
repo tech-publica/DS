@@ -1,4 +1,4 @@
-package observer.jdk;
+package org.example.observer.jdk;
 
 public class WeatherStationHeatIndex {
 
